@@ -35,6 +35,11 @@ nav a{
   color:white;
   padding:0.5rem;
 }
+}
+nav a:hover {
+    color: Yellow;
+    background-color: white;
+}
 h1 {
   color:#9c0303;
   border-bottom: 3px solid black;
