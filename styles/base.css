@@ -1,11 +1,13 @@
 @import url(//fonts.googleapis.com/css2?family=Poetsen%20One&family=Alegreya%20Sans&display=swap);
 @import url(//fonts.googleapis.com/css?family=Hind:300,500);
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,400italic)
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body{
   display:block;
 }
@@ -37,7 +39,7 @@ nav a{
   color:white;
   padding:0.5rem;
 }
-}
+
 nav a:hover {
     font-weight: 700;
     text-decoration: underline;
