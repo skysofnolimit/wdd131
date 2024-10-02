@@ -1,4 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen%20One&family=Alegreya%20Sans&display=swap');
+:root {
 
+    --heading-font: 'Poetsen One', serif;
+    --paragraph-font: 'Alegreya Sans', serif;
+}
 * {
   margin: 0;
   padding: 0;
