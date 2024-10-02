@@ -1,0 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+h1 {text-align: center;}
+nav{
+  margin:0 auto 2 rem;
+  max-width:90vw;
+}
