@@ -35,7 +35,7 @@ nav a{
   padding:0.5rem;
 }
 h1 {
-  color:blueviolet;
+  color:#9c0303;
   border-bottom: 3px solid black;
 }
 aside {
@@ -77,8 +77,8 @@ footer{
 .box {
   margin: 1rem;
   padding: 1rem;
-  background-color:lavender;
-  color:blueviolet;
+  background-color:#eee;
+  color:#9c0303;
 }
 header,.grid,footer {
   max-width: 840px;
