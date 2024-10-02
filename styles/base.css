@@ -1,58 +1,91 @@
-*{
-    margin: 0;
-    padding: 0;
-  }
-  
-  h1 {text-align: center;}
-  nav{
-    margin:0 auto 2 rem;
-    max-width:90vw;
-  }
-  .navigation {
-  list-style: none;
-  display: flex;
-  background-color: #333;
-  align-items: center;
-  }
-  .navigation {
-  flex: 1 1 auto; /* difference between auto and 100% flex-basis - turn on link borders to view */
-  }
-  .navigation a {
-  display: block;
-  color: #eee;
-  padding: 0.75rem;
-  text-decoration: none;
-  text-align: center;
-  /* border: 1px dotted cyan; */
-  }
-  .navigation a:hover {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display:block;
+}
+header {
+  display:block;
+}
+.container{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+main {
+  grid-column: 2;
+  grid-row: 1;
+  margin: 1rem;
+  max-width: 840px;
+}
+nav {
+  background-color:#9c0303;
+  padding: 1rem;
+  display:flex;
+  justify-content: space-evenly;
+  align-items:center;
+}
+nav a{
+  display:block;
+  text-decoration:none;
+  font-size:1.2rem;
   font-weight: 700;
-  text-decoration: underline;
-  text-decoration-color: yellow;
-  }
+  color:white;
+  padding:0.5rem;
+}
+h1 {
+  color:blueviolet;
+  border-bottom: 3px solid black;
+}
+aside {
+  width: 20rem;
+  position: relative;
+  grid-column: 1;
+  grid-row: 1;
+}
+aside img {
+  width:300px;
+  height: auto;
+}
+aside h2 {
+  position:absolute;
+  top: 55px;
+  left: 125px;
+}
+main img {
+  width: 150px;
+  height: auto;
+  margin: 1rem;
+  float:right;
+}
+h2{
+  display:block;
+  margin-block-start:0.83em;
+  margin-block-end:0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+p { padding: 0;
+  margin: 1rem;}
+footer{
+  margin-top:15px;
+  border-top: 1px solid #000;
+  text-align: center;
+}
+/* Class Selectors */
+.box {
+  margin: 1rem;
+  padding: 1rem;
+  background-color:lavender;
+  color:blueviolet;
+}
+header,.grid,footer {
+  max-width: 840px;
+  margin: 0 auto;
+}
+.grid{
+  display: grid;
+  align-items:center;
+}
 
-  body{
-    display: grid;
-    height: 100vh;
-    grid-template: auto 1 fr auto / 300px 1fr auto;
-  }
-
-  header{
-    background: #9c0303;
-    padding: 2rem;
-    grid: 1/4;
-  }
-
-  .left-sidebar{
-    grid-column: 1 / 2;
-  }
-
-  .right-sidebar{
-    grid-column: 2 / 4;
-  }
-
-  footer {
-    padding: 2rem;
-    text-align:center;
-    grid-column: 1 / 4;
-  }
