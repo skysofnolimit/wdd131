@@ -43,6 +43,7 @@ nav a:hover {
 h1 {
   color:#9c0303;
   border-bottom: 3px solid black;
+  padding: 1rem;
 }
 aside {
   width: 20rem;
