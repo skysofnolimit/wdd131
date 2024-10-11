@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    display:block;
+  }
+  header {
+    display:block;
+  }
+
+  #menu {
+    display: block;
+    fond-size: 2rem;
+    font-weight:700;
+    text-decoration: none;
+    padding: .5rem .75rem;
+    background-color: blue;
+    color: #000;
+  }
+
+  #menu::before {
+    content: "#";
+  }
+
+  nav {
+    background-color: blue;
+  }
+  .navigation li {
+    display: none;
+  }
+
+  .navigation {
+    lit-style: none;
+    margin: 0 auto;
+    max-width: 760px;
+  }
+
+  .navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
+    text decoration: none;
+    color: black;
+    font-weight: 700;
+    transition: 0.5s;
+    font-size: clamp(1rem, 2vmin, 1.5rem);
+  }
+  .navigation a:hover, navigation a :active {
+    color: white;
+    background-color: #000;
+  }
+
+  .show li {
+    display: block;
+  }
+
+  #menu.show::before {
+    content: "X";
+  }
