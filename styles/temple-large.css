@@ -22,7 +22,7 @@
   }
 
   #menu::before {
-    content: "#";
+    content: "☰";
   }
 
   nav {
