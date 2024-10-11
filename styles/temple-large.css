@@ -32,6 +32,12 @@
     display: none;
   }
 
+  #temple-container {
+      display: flex;
+      flexwrap: wrap;
+      gap: 20px;
+  }
+
   .navigation {
     lit-style: none;
     margin: 0 auto;
