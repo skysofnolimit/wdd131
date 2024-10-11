@@ -1,10 +1,10 @@
-@media only screen and (min-width: 40rem) {
+@media only screen and (max-width: 40rem) {
     .navigation{
         display: flex;
     }
     .navigation li {
         display: block;
-        flex1 1 1 100%;
+        flex 1 1 1 100%;
     }
     .navigation a {
         text-align: center;
