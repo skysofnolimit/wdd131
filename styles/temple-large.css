@@ -43,9 +43,12 @@ section {margin: 1rem auto; max-width: 960px;}
     margin: 0 auto;
 
   }
+  nav {
+     display: flex;
+  }
 
   .navigation a {
-    display: block;
+    display: flex;
     padding: 0.75rem;
     text-align: left;
     text-decoration: none;
