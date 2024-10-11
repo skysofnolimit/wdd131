@@ -29,7 +29,7 @@
     background-color: blue;
   }
   .navigation li {
-    display: none;
+    display: flex;
   }
 
   #temple-container {
