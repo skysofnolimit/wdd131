@@ -38,12 +38,6 @@ section {margin: 1rem auto; max-width: 960px;}
     display: flex;
   }
 
-  #temple-container {
-      display: flex;
-      flexwrap: wrap;
-      gap: 20px;
-  }
-
   .navigation {
     lit-style: none;
     margin: 0 auto;
@@ -72,8 +66,4 @@ section {margin: 1rem auto; max-width: 960px;}
   #menu.show::before {
     content: "X";
   }
-  #temple-container {
-      display:grid; 
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
-      grid-gap: 25px;place-items: center;
-  }
+
