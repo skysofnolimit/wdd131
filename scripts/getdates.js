@@ -1,8 +1,10 @@
+window.onload = function() {
+
 const year = document.querySelector("#year");
 const today = new Date();
 ).format(today)}</span>';
 year.innerHTML = `getFullYear(): <span class="highlight">${today.getFullYear()}</span>`;
-
+}
 const full = document.querySelector("#full");
 const worldfull = document.querySelector("#world-full");
 const short = document.querySelector("#short");
