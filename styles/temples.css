@@ -11,7 +11,15 @@ body {
 }
 
 
-h1, h2 {
+h1, {
+	font-size: 2rem;
+	font-family: 'Poetsen One', serif;
+    	color: #157145;
+	background-color: #D1FAFF;
+	text-align: Left;}
+
+
+h2 {
 	font-size: 2rem;
 	font-family: 'Poetsen One', serif;
     	color: #157145;
