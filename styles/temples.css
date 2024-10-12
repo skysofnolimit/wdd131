@@ -13,7 +13,7 @@
 }
 
 nav {
-	background-color: blue;
+	background-color: #D1FAFF;
 }
 .navigation {
 	list-style: none;
@@ -36,8 +36,8 @@ nav {
 }
 
 .navigation a:hover, navigation a:active {
-	color: white;
-	background-color: black;
+	color: #57A773;
+	background-color:  #9BD1E5;
 }
 
 .show li {
