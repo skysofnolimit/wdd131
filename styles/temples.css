@@ -11,8 +11,11 @@ body {
 }
 
 
-h2 {font-size: 2rem;
-text-align: center;}
+h1, h2 {
+	font-size: 2rem;
+	font-family: 'Poetsen One', serif;
+    	color: #157145;
+	text-align: center;}
 
 section {margin: 1rem auto; max-width: 960px;}
 .container {display:grid; grid-template-columns: 
