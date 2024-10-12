@@ -1,3 +1,24 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: Alegreya Sans, serif;
+}
+.picture {
+	font-weight: 700;border-bottom: 1px solid #777; margin-bottom: 1rem;
+}
+
+
+h2 {font-size: 2rem;
+text-align: center;}
+
+section {margin: 1rem auto; max-width: 960px;}
+.container {display:grid; grid-template-columns: 
+	repeat(auto-fit, minmax(200px, 1fr)); 
+	    grid-gap: 25px;place-items: center;}
+
 #menu {
 	display: block;
 	font-size: 2rem;
