@@ -87,8 +87,3 @@ nav {
 #menu.show::before {
 	content: "X";
 }
-footer {
-	background color: #D1FAFF;
-	text align: center;
-	padding: 1rem;
-}
