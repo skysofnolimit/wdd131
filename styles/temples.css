@@ -17,6 +17,15 @@ header {
     background-color: #D1FAFF;
 }
 
+.header_nav {
+	padding: 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+	
+
 h1 {
 	padding: 20px;
 	font-size: 2rem;
