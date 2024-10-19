@@ -13,3 +13,11 @@ document.querySelectorAll('.nav-link").forEach(n => n.addEventListener('click', 
    navMenu.classList.remove("active");
    mainContainer.classList.remove("active");
 })
+
+document.addEventListener("DOMContentLoaded", function() {
+    const yearSpan = document.getElementById("year);
+    const lastUpdatedSpan = document.getElementById("lastUpdated");
+
+yearSpan.textContent = new Date().getFullYear();
+lastUpdatedSpan.textContent = document.lastModified;
+});
