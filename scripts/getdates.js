@@ -1,4 +1,7 @@
-window.onload = function() {
-    document.getElementById("currentyear").textContent = new Date().getFullYear();
-    document.getElementById("lastModified").textContent = "Last Modification: " + document.lastModified;
-};
+document.addEventListener("DOMContentLoaded", function() {
+    const yearSpan = document.getElementById("year);
+    const lastUpdatedSpan = document.getElementById("lastUpdated");
+
+yearSpan.textContent = new Date().getFullYear();
+lastUpdatedSpan.textContent = document.lastModified;
+});
