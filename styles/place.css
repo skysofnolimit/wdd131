@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: rgb(54, 165, 26);
+    --first-font-color: #fff;
+    --border-color-1: #bbb6b6;
+  
+    --title-background-color: rgb(11, 24, 11);
+    --card-background: rgba(16, 13, 192, 0.8);
+    --card-item-text-color: #fff;
+}
+
+h1 {
+    font-weight:bold;
+}
+
+body {
+   
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.place {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: var(--primary-color);
+    color: var(--title-background-color);
+    text-align: center;
+    letter-spacing: .5rem;
+    word-spacing: 1rem;
+    padding: 1.5rem 0;
+}
+
+.underline {
+    background-color: var(--title-background-color);
+    height: 1rem;
+}
+
+.main {
+    position: relative;
+}
+
+.main__hero {
+    width: auto;
+}
+
+.main .main__hero img {
+    object-fit: cover;
+    height: auto;
+
+}
+
+.demographics_box,
+.weather_box {
+    border: 1px solid var(--border-color-1);
+    color: var(--card-item-text-color);
+    padding: 1rem;
+    line-height: 1.5rem;
+    position: absolute;
+    background-color: var(--card-background);
+
+}
+
+.demographics_box {
+    top: 3rem;
+    left: 4rem;
+    z-index: 2;
+    padding-top: 5rem;
+}
+
+.weather_box {
+    right: 4.5rem;
+    bottom: 10rem;
+    z-index: 1;
+    padding-top: 5rem;
+}
+
+.demographics_container {
+    position: relative;
+}
+
+.demographics_title {
+    color: var(--first-font-color);
+    background-color: var(--title-background-color);
+    padding: 1rem 8.3rem 1rem 2.3rem;
+    position: absolute;
+    top: -4.4rem;
+    left: -1.7rem;
+}
+
+.weather_title {
+    color: var(--first-font-color);
+    background-color: var(--title-background-color);
+    padding: 1rem 2.4rem 1rem 2rem;
+    position: absolute;
+    bottom: 8rem;
+    left: -.7rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather_title-span {
+    margin-left: 1.5rem;
+}
+
+.main_title {
+    margin: 30px auto;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--card-item-text-color);
+    font-weight: 900;
+    text-shadow: 2px 2px var(--text-shadow-color);
+    text-align: center;
+    padding: 1rem;
+}
+
+#lastModified {
+    margin-top: 0.5rem;
+}
+
+.demographics_box__elements {
+    list-style-type: none;
+    padding: 0;
+}
+
+.card__description {
+    display: table;
+    width: auto;
+}
+
+.card__description strong {
+    display: table-cell;
+    padding-right: 10px;
+    text-align: right;
+    min-width: 120px;
+}
+
+.card__description span {
+    display: table-cell;
+    text-align: left;
+}
