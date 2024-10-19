@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Country</title>
+        <meta name="description" content="WDD 131 place Pasadena">
+        <meta name="author" content="Lori Merriam">
+        <link rel="stylesheet" href="styles/place.css">
+        <link rel="stylesheet" href="styles/place_large.css">
+        <link rel="stylesheet" href="styles/wind_chill.css">
+        <script src="scripts/place.js" defer></script>    
+    </head>
+    <body>
+        <header>
+            <h1 class="place">Pasadena</h1>
+            <div class="underline"></div>
+        </header>
+        <main class="main">
+            <picture class="main_hero">
+                <source media="(min-width:1000px)" srcset="images/pasadena_full_bridge.webp">
+                <source media="(min-width:500px)" srcset="images/pasadena_bridge.webp">
+                <img src="images"
+            </picture>
+            <section class="demographics_box">
+                <div class="demographics_container">
+                    <h2 class="demographics_title">Data</h2>
+                </div>
+                <div class="data_container">
+                    <ul class="card__list__title">
+                        <li class="card__description"><strong>Area :</strong> 23.13 mi2</li>
+                        <li class="card__description"><strong>Elevation :</strong> 863'</li>
+                        <li class="card__description"><strong>Population :</strong> 134,211</li>
+                        <li class="card__description"><strong>Founded :</strong> January 27, 1874</li>
+                        <li class="card__description"><strong>Elevation :</strong> 863'</li>
+                        <li class="card__description"><strong>Time Zone :</strong> UTC -7</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="weather_box">
+                <h2 class="weather_title">Weather<span class="card__weather-span">⛅</span>
+                </h2>
+                <div class="data_container">
+                    <ul class="card__list__title">
+                        <li class="card__description"><strong>Temperature:</strong> <span>77 F&deg;</span></li>
+                        <li class="card__description"><strong>Conditions :</strong> <span>Partly Cloudy</span></li>
+                        <li class="card__description"><strong>Wind :</strong> <span>5 mph</span></li>
+                        <li class="card__description"><strong>Wind Chill :</strong> <span
+                                id="windChill"></span><span>F&deg;</span></li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>©️<span id="year"></span> 🧵 Lori Merriam 🧵 Virginia </p>
+            <p>Last Modification <span id="lastUpdated"</span></p>           
+        </footer>
+        <script defer src ="scripts/place.js"></script>
+        </body>
+        </html>
