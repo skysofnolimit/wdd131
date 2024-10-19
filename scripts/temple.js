@@ -1,7 +1,15 @@
-const mainnav = document.querySelector('.navigation')
-const hambutton = document.querySelector('#menu');
+const hamburger = document.querySelector('.hamburger");
+const navMenu = document.querySelector('.nav-menu");
+const mainContainer = document.querySelector('.main_container");
 
-hambutton.addEventListener('click', () => {
-    mainnav.classList.toggle('show');
-    hambutton.classList.toggle('show');
-}).
+hamburger.addEventListener('click', () => {
+   hamburger.classList.toggle("active");
+   navMenu.classList.toggle("active");
+   mainContainer.classList.toggle("active");
+})
+
+document.querySelectorAll('.nav-link").forEach(n => n.addEventListener('click', () => {
+ hamburger.classList.remove("active");
+   navMenu.classList.remove("active");
+   mainContainer.classList.remove("active");
+})
