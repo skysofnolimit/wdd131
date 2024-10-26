@@ -95,7 +95,7 @@ a {
 
 section {
     padding-bottom: 7rem;
-    border: 1px solid #dbd9ddc4;
+    border: 1px solid #c6a4c7;
     box-shadow: -1px 0px 6px black;
 }
 
@@ -130,8 +130,4 @@ footer {
     font-weight: 300;
     text-align: center;
     padding: 1rem;
-}
-
-#lastModified {
-    margin-top: 0.5rem;
 }
