@@ -1,0 +1,44 @@
+:root{
+    --black: rgba(0, 0, 0, 1);
+    --grey: rgb(129, 129, 129);
+    --white: #fff;
+    --lightgreen: rgb(204, 224, 212);
+    --darkgreen: rgb(62, 101, 75);
+    }
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+        
+        html,
+        body {
+        background-color: var(--white);
+        }
+        
+        h1 {
+        font-size: 2rem;
+        }
+        
+        h1, main, footer {
+        padding: 1rem;
+        }
+        
+        h1, .form-submission p, footer p, main {
+        text-align: center;
+        font-family: "Inter", serif;
+
+        }
+        
+        main {
+        background-color: var(--lightgreen);
+        margin: 2rem auto;
+        border-radius: 3px;
+        }
+        
+        h1, footer, input[type="submit"] {
+            background-color: var(--darkgreen);
+            color: var(--white);
+            }
