@@ -20,6 +20,15 @@
         padding: 1rem;
     }
 
+            li {
+        list-style: none;
+    }
+    
+            a {
+        color: white;
+        text-decoration: none;
+    }
+
     html,
     body {
     background-color: var(--white);
@@ -30,6 +39,7 @@
      
     h1 {
         font-weight:bold;
+        font-size: 5rem;
     }
 
     .navbar {
@@ -47,14 +57,14 @@
         color: #e23fe7;
     }
     
-    .nav-item a:hover {
+    .nav-item, a:hover {
         color: #e23fe7;
     }
 
     .box {
         margin: 1rem;
         padding: 1rem;
-        background-color:lavender;
+        background-color:var(--darkpurple);
         color: var(--darkpurple);
         text-align: center;
       }
@@ -70,8 +80,8 @@
         font-family: "Inter", sans-serif;
         font-weight: 700;
         font-style: normal;
-        background-color: var(--primary-color);
-        color: var(--title-background-color);
+        background-color: var(--lightpurple);
+        color: var(--darkpurple);
         text-align: center;
         letter-spacing: .2rem;
         word-spacing: 1rem;
@@ -82,30 +92,24 @@
         width: 95%;
         margin: 0 auto;
     }
-
-    .underline {
-        background-color: var(--title-background-color);
-        height: 1rem;
-    }
+   
+    section {margin: 1rem auto; max-width: 960px;}
     
     .main {
         position: relative;
+        border-radius: 3px;
     }
     
     .main__hero {
         width: auto;
+        align-content: center;
     }
     
     .main .main__hero img {
         object-fit: cover;
         height: auto;
-    
     }
-
-
-    
   
-    
     .main_title {
         margin: 30px auto;
         font-size: 1.5rem;
@@ -123,8 +127,3 @@
     
     #lastModified {
         margin-top: 0.5rem;
-    }
-    
-  
-    
-  
