@@ -1,0 +1,139 @@
+:root{
+    --black: #000;
+    --grey: rgb(129, 129, 129);
+    --white: #fff;
+    --lightpurple: rgb(245, 153, 253);
+    --darkpurple: rgb(89, 23, 95);
+    }
+    
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    header, footer {
+        background-color: var(--darkpurple);
+        color: #fff;
+        font-weight: 300;
+        text-align: center;
+        padding: 1rem;
+    }
+
+            li {
+        list-style: none;
+    }
+    
+            a {
+        color: white;
+        text-decoration: none;
+    }
+
+    html,
+    body {
+    background-color: var(--white);
+    }
+    
+    h1, main, footer {
+    padding: 1rem;
+     
+    h1 {
+        font-weight:bold;
+        font-size: 5rem;
+    }
+
+    .navbar {
+        min-height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .nav-link {
+        transition: 0.3s ease-out;
+    }
+    
+    .nav-link:hover {
+        color: #e23fe7;
+    }
+    
+    .nav-item, a:hover {
+        color: #e23fe7;
+    }
+
+    .box {
+        margin: 1rem;
+        padding: 1rem;
+        background-color:var(--darkpurple);
+        color: var(--darkpurple);
+        text-align: center;
+      }
+
+    body { 
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        max-width: 1500px;
+        margin: 0 auto;
+    }
+    
+    p {
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        background-color: var(--lightpurple);
+        color: var(--darkpurple);
+        text-align: center;
+        letter-spacing: .2rem;
+        word-spacing: 1rem;
+        padding: 1.5rem 0;
+    }
+    
+    .container {
+        width: 95%;
+        margin: 0 auto;
+    }
+   
+    section {margin: 1rem auto; max-width: 960px;}
+    
+    .container {display:grid; grid-template-columns: 
+	repeat(auto-fit, minmax(200px, 1fr)); 
+	    grid-gap: 25px;place-items: center;}
+ 
+    .underline {
+        background-color: var(--title-background-color);
+        height: 1rem;
+    }
+    
+    .main {
+        position: relative;
+        border-radius: 3px;
+    }
+    
+    .main__hero {
+        width: auto;
+        align-content: center;
+    }
+    
+    .main .main__hero img {
+        object-fit: cover;
+        height: auto;
+    
+    }
+    
+    .main_title {
+        margin: 30px auto;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+    footer {
+        background-color: var(--primary-color);
+        color: var(--card-item-text-color);
+        font-weight: 900;
+        text-shadow: 2px 2px var(--text-shadow-color);
+        text-align: center;
+        padding: 1rem;
+    }
+    
+    #lastModified {
+        margin-top: 0.5rem;
