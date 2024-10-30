@@ -1,7 +1,1 @@
-const letters = [
-    imageUrl
-
-    imageUrl
-
-    imageUrl
-]
+const
