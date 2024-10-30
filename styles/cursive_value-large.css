@@ -1,0 +1,43 @@
+
+@media(max-width: 1062px) {
+    .hamburger{
+      display: block;
+    }
+  
+    .hamburger.active .bar:nth-child(2){
+      opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+      transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+      transform: translateY(-8px) rotate(-45deg);
+    }
+   
+    .nav-menu{
+      position: fixed;
+      left: -100%;
+      top: 0px;
+      gap: 0;
+      flex-direction: column;
+      background-color: #610a64;
+      width: 100%;
+      font-size: 2rem;
+      text-align: center;
+      transition: 0.3s;
+
+    }
+
+    .main_container.active {
+        position: relative;
+        top: 300px;
+    }
+  
+    .nav-item{
+      margin: 16px 0;
+    }
+  
+    .nav-menu.active{
+      left: 0;
+    }
+  }
