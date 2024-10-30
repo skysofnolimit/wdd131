@@ -20,19 +20,14 @@
         padding: 1rem;
     }
 
-
-
     html,
     body {
     background-color: var(--white);
     }
     
-  
     h1, main, footer {
     padding: 1rem;
-
-
-      
+     
     h1 {
         font-weight:bold;
     }
@@ -44,6 +39,18 @@
         align-items: center;
     }
     
+    .nav-link {
+        transition: 0.3s ease-out;
+    }
+    
+    .nav-link:hover {
+        color: #e23fe7;
+    }
+    
+    .nav-item a:hover {
+        color: #e23fe7;
+    }
+
     .box {
         margin: 1rem;
         padding: 1rem;
@@ -52,26 +59,30 @@
         text-align: center;
       }
 
-    body {
-       
-        font-family: "Inter", sans-serif;
+    body { 
+        font-family: "Roboto", sans-serif;
         font-weight: 500;
         max-width: 1500px;
         margin: 0 auto;
     }
     
-    .place {
+    p {
         font-family: "Inter", sans-serif;
-        font-weight: 400;
+        font-weight: 700;
         font-style: normal;
         background-color: var(--primary-color);
         color: var(--title-background-color);
         text-align: center;
-        letter-spacing: .5rem;
+        letter-spacing: .2rem;
         word-spacing: 1rem;
         padding: 1.5rem 0;
     }
     
+    .container {
+        width: 95%;
+        margin: 0 auto;
+    }
+
     .underline {
         background-color: var(--title-background-color);
         height: 1rem;
@@ -113,5 +124,7 @@
     #lastModified {
         margin-top: 0.5rem;
     }
+    
+  
     
   
