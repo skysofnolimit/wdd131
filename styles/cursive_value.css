@@ -20,11 +20,11 @@
         padding: 1rem;
     }
 
-            li {
+    li {
         list-style: none;
     }
     
-            a {
+    a {
         color: white;
         text-decoration: none;
     }
