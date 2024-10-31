@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Gudea&family=Alegreya%20Sans&display=swap');
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding:20px;
+}
+:root {
+    --primary-color: #694873;
+    --secondary-color: #a884ae;
+    --accent1-color: #e5dae7;
+    --accent2-color: #000;
+    --accent3-color: #fff;
+
+    --heading-font: 'Gudea', cursive;
+    --paragraph-font: 'Alegreya', serif;
+
+    --nav-background-color:var(--primary-color);
+    --nav-link-color:var(--accent3-color);
+    --nav-hover-link-color:var(--accent2-color);
+    --nav-hover-background-color:var(--secondary-color);
+}
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--accent2-color)
+}
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+p {
+    padding: 25px;
+}
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+footer {
+    background-color: #694873;
+    color: #fff;
+    text-align: center;
+}
