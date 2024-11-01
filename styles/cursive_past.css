@@ -1,141 +1,68 @@
-:root{
-    --black: #000;
-    --grey: rgb(129, 129, 129);
-    --white: #fff;
-    --lightpurple: rgb(245, 153, 253);
-    --darkpurple: rgb(89, 23, 95);
-    }
-    
-    * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    }
+@import url('https://fonts.googleapis.com/css2?family=Gudea&family=Alegreya%20Sans&display=swap');
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding:20px;
+}
+:root {
+    --primary-color: #694873;
+    --secondary-color: #a884ae;
+    --accent1-color: #e5dae7;
+    --accent2-color: #000;
+    --accent3-color: #fff;
 
-    header, footer {
-        background-color: var(--darkpurple);
-        color: #fff;
-        font-weight: 300;
-        text-align: center;
-        padding: 1rem;
-    }
+    --heading-font: 'Gudea', cursive;
+    --paragraph-font: 'Alegreya', serif;
 
-            li {
-        list-style: none;
-    }
-    
-            a {
-        color: white;
-        text-decoration: none;
-    }
+    --nav-background-color:var(--primary-color);
+    --nav-link-color:var(--accent3-color);
+    --nav-hover-link-color:var(--accent2-color);
+    --nav-hover-background-color:var(--secondary-color);
+}
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--accent2-color)
+}
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+p {
+    padding: 25px;
+}
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
 
-    html,
-    body {
-    background-color: var(--white);
-    }
-    
-    h1, main, footer {
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
     padding: 1rem;
-     
-    h1 {
-        font-weight:bold;
-        font-size: 5rem;
-    }
+}
 
-    .navbar {
-        min-height: 70px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-    .nav-link {
-        transition: 0.3s ease-out;
-    }
-    
-    .nav-link:hover {
-        color: #e23fe7;
-    }
-    
-    .nav-item, a:hover {
-        color: #e23fe7;
-    }
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
 
-    .box {
-        margin: 1rem;
-        padding: 1rem;
-        background-color:var(--darkpurple);
-        color: var(--darkpurple);
-        text-align: center;
-      }
+footer {
+    background-color: #694873;
+    color: #fff;
+    text-align: center;
+}
 
-    body { 
-        font-family: "Roboto", sans-serif;
-        font-weight: 500;
-        max-width: 1500px;
-        margin: 0 auto;
-    }
-    
-    p {
-        font-family: "Inter", sans-serif;
-        font-weight: 700;
-        font-style: normal;
-        background-color: var(--lightpurple);
-        color: var(--darkpurple);
-        text-align: center;
-        letter-spacing: .2rem;
-        word-spacing: 1rem;
-        padding: 1.5rem 0;
-    }
-    
-    .container {
-        width: 95%;
-        margin: 0 auto;
-    }
-   
-    section {margin: 1rem auto; max-width: 960px;}
-    
-    .container {display:grid; grid-template-columns: 
-	repeat(auto-fit, minmax(200px, 1fr)); 
-	    grid-gap: 25px;place-items: center;}
- 
-    .underline {
-        background-color: var(--title-background-color);
-        height: 1rem;
-    }
-    
-    .main {
-        position: relative;
-        border-radius: 3px;
-    }
-    
-    .main__hero {
-        width: auto;
-        align-content: center;
-    }
-    
-    .main .main__hero img {
-        object-fit: cover;
-        height: auto;
-    
-    }
-    
-    .main_title {
-        margin: 30px auto;
-        font-size: 1.5rem;
-        text-align: center;
-    }
-    
-    footer {
-        background-color: var(--primary-color);
-        color: var(--card-item-text-color);
-        font-weight: 900;
-        text-shadow: 2px 2px var(--text-shadow-color);
-        text-align: center;
-        padding: 1rem;
-    }
-
-	    img {
+        img {
     padding-top: 1rem;
     width: 100%;
     height: 100%;
@@ -144,4 +71,3 @@
     
     #lastModified {
         margin-top: 0.5rem;
-
