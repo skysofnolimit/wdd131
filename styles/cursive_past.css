@@ -70,4 +70,10 @@ footer {
 }
     
     #lastModified {
-        margin-top: 0.5rem;
+        margin-top: 0.5rem;}
+
+    section {margin: 1rem auto; max-width: 960px;}
+
+    .container {display:grid; grid-template-columns: 
+	repeat(auto-fit, minmax(200px, 1fr)); 
+	    grid-gap: 25px;place-items: center;}
