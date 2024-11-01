@@ -24,10 +24,10 @@ body {
     max-width: 960px;
     padding: 20px;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, li {
     font-family: var(--heading-font);
     color: var(--accent2-color)
-}
+	text-align: center}
 header {
     padding: 20px;
     background-color: var(--accent1-color);
