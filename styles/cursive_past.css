@@ -26,8 +26,8 @@ body {
 }
 h1, h2, h3, h4, h5, h6, li {
     font-family: var(--heading-font);
-    color: var(--accent2-color)
-	text-align: center}
+    color: var(--accent2-color);
+	text-align: center;}
 header {
     padding: 20px;
     background-color: var(--accent1-color);
